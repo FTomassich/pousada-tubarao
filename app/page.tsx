@@ -836,7 +836,7 @@ export default function PousadaTubaraoLanding() {
                 WhatsApp
               </a>
               <a
-                href="tel:+5541999999999"
+                href="tel:+554198647543"
                 className="flex items-center justify-center bg-white text-sky-700 ring-1 ring-inset ring-sky-200 hover:bg-sky-50 rounded-lg font-semibold px-6 py-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-600 focus-visible:ring-offset-2 transition"
                 aria-label="Ligar para a pousada"
               >
@@ -851,7 +851,7 @@ export default function PousadaTubaraoLanding() {
                 Telefone
               </a>
               <a
-                href="mailto:contato@pousadatubarao.com.br"
+                href="mailto:pousadatubaraoencantadas@gmail.com"
                 className="flex items-center justify-center bg-white text-sky-700 ring-1 ring-inset ring-sky-200 hover:bg-sky-50 rounded-lg font-semibold px-6 py-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-600 focus-visible:ring-offset-2 transition"
                 aria-label="Enviar email para a pousada"
               >
