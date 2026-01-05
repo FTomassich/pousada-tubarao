@@ -21,6 +21,7 @@ export default function PousadaTubaraoLanding() {
             <div className="flex items-center gap-4">
               <div className="hidden md:block">
                 <div className="flex items-center space-x-6">
+                  
                   <a href="#hospedagem" className="text-gray-700 hover:text-sky-600 font-semibold transition">
                     Hospedagem
                   </a>
@@ -55,40 +56,40 @@ export default function PousadaTubaraoLanding() {
             </div>
           </div>
           {mobileMenuOpen && (
-            <div className="md:hidden border-t border-slate-200 py-4">
+            <div className="md:hidden absolute top-16 left-0 w-full bg-white border-t border-slate-200 py-4 z-40 shadow-lg">
               <div className="flex flex-col space-y-3">
                 <a
                   href="#hospedagem"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-gray-700 hover:text-sky-600 font-semibold transition px-2 py-2 rounded-lg hover:bg-slate-50"
+                  className="text-gray-700 hover:text-sky-600 font-semibold transition px-4 py-2 rounded-lg hover:bg-slate-50"
                 >
                   Hospedagem
                 </a>
                 <a
                   href="#servicos"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-gray-700 hover:text-sky-600 font-semibold transition px-2 py-2 rounded-lg hover:bg-slate-50"
+                  className="text-gray-700 hover:text-sky-600 font-semibold transition px-4 py-2 rounded-lg hover:bg-slate-50"
                 >
                   Serviços
                 </a>
                 <a
                   href="#restaurante"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-gray-700 hover:text-sky-600 font-semibold transition px-2 py-2 rounded-lg hover:bg-slate-50"
+                  className="text-gray-700 hover:text-sky-600 font-semibold transition px-4 py-2 rounded-lg hover:bg-slate-50"
                 >
                   Restaurante
                 </a>
                 <a
                   href="#localizacao"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-gray-700 hover:text-sky-600 font-semibold transition px-2 py-2 rounded-lg hover:bg-slate-50"
+                  className="text-gray-700 hover:text-sky-600 font-semibold transition px-4 py-2 rounded-lg hover:bg-slate-50"
                 >
                   Localização
                 </a>
                 <a
                   href="#contato"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-gray-700 hover:text-sky-600 font-semibold transition px-2 py-2 rounded-lg hover:bg-slate-50"
+                  className="text-gray-700 hover:text-sky-600 font-semibold transition px-4 py-2 rounded-lg hover:bg-slate-50"
                 >
                   Contato
                 </a>
