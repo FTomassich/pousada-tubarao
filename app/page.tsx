@@ -835,7 +835,7 @@ export default function PousadaTubaraoLanding() {
             <p className="text-gray-700 mb-6">Entre em contato e garanta sua reserva.</p>
             <div className="space-y-3">
               <a
-                href="https://wa.me/5541999999999"
+                href="https://wa.me/554198647543"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center bg-sky-600 text-white hover:bg-sky-700 rounded-lg font-semibold px-6 py-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-600 focus-visible:ring-offset-2 transition"
