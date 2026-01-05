@@ -135,7 +135,7 @@ export default function PousadaTubaraoLanding() {
       </section>
 
       {/* Hospedagem Section */}
-      <section id="hospedagem" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+      <section id="hospedagem" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16 scroll-mt-10">
         <div className="text-center mb-12">
           <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">Hospedagem</h2>
           <p className="text-gray-700 max-w-3xl mx-auto mb-2">
@@ -371,7 +371,7 @@ export default function PousadaTubaraoLanding() {
       </section>
 
       {/* Serviços Section */}
-      <section id="servicos" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16 bg-white">
+      <section id="servicos" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16 bg-white scroll-mt-10">
         <div className="text-center mb-12">
           <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">Serviços e Comodidades</h2>
           <p className="text-gray-700 max-w-3xl mx-auto">
@@ -677,7 +677,7 @@ export default function PousadaTubaraoLanding() {
       </section>
 
       {/* Atrativos Próximos Section */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16 scroll-mt-10">
         <div className="text-center mb-12">
           <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">Atrativos Próximos</h2>
           <p className="text-gray-700 max-w-3xl mx-auto">
@@ -751,7 +751,7 @@ export default function PousadaTubaraoLanding() {
       </section>
 
       {/* Localização Section */}
-      <section id="localizacao" className="bg-white py-12 lg:py-16">
+      <section id="localizacao" className="bg-white py-12 lg:py-16 scroll-mt-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 text-center">Localização</h2>
           <p className="text-gray-700 max-w-3xl mx-auto text-center mb-8">
@@ -759,6 +759,18 @@ export default function PousadaTubaraoLanding() {
             Também estamos próximos de supermercados locais, onde é possível realizar compras com cartão de crédito.
           </p>
 
+<div className="relative aspect-video rounded-xl overflow-hidden ring-1 ring-slate-200 bg-white mb-4">
+            <iframe
+              src="https://www.google.com/maps?q=Pousada%20Tubar%C3%A3o%20Ilha%20do%20Mel%20Encantadas&output=embed"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Localização da Pousada Tubarão na Ilha do Mel"
+            />
+          </div>
           <div className="grid md:grid-cols-2 gap-4 mb-8">
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden ring-1 ring-slate-200 bg-white">
               <img
@@ -774,23 +786,12 @@ export default function PousadaTubaraoLanding() {
             </div>
           </div>
 
-          <div className="relative aspect-video rounded-xl overflow-hidden ring-1 ring-slate-200 bg-white">
-            <iframe
-              src="https://www.google.com/maps?q=Pousada%20Tubar%C3%A3o%20Ilha%20do%20Mel%20Encantadas&output=embed"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Localização da Pousada Tubarão na Ilha do Mel"
-            />
-          </div>
+          
         </div>
       </section>
 
       {/* Detalhes e Contato Section */}
-      <section id="contato" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+      <section id="contato" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16 scroll-mt-10">
         <div className="grid lg:grid-cols-2 gap-8">
           <div className="bg-white rounded-xl shadow ring-1 ring-slate-200 p-8">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">Detalhes úteis</h2>
