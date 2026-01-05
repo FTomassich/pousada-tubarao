@@ -1,6 +1,10 @@
 "use client"
 
-import { useState } from "react"
+import { useState } from "react";
+import { FaSnowflake } from "react-icons/fa";
+import { FaUtensils } from "react-icons/fa";
+import { FaBed } from "react-icons/fa";
+import { FaPaw } from "react-icons/fa";
 
 export default function PousadaTubaraoLanding() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -119,7 +123,7 @@ export default function PousadaTubaraoLanding() {
               </a>
             </div>
           </div>
-          <div className="relative aspect-[16/10] rounded-xl overflow-hidden ring-1 ring-slate-200 bg-white">
+          <div className="relative aspect-[4/3] rounded-xl overflow-hidden ring-1 ring-slate-200 bg-white">
             <img
               src="/images/483051518.jpg"
               alt="Entrada da Pousada Tubarão Camping na Ilha do Mel"
@@ -176,9 +180,12 @@ export default function PousadaTubaraoLanding() {
                   </svg>
                 </div>
               </div>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 mb-2">
                 Quarto aconchegante com cama de casal, ideal para casais que buscam conforto e privacidade.
               </p>
+              <span className="inline-block bg-green-50 border border-green-600 text-green-700 font-bold px-3 py-1 rounded-lg text-sm shadow-sm mb-4">
+  R$ 500
+</span>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="inline-flex items-center gap-1 text-xs font-semibold text-gray-600 bg-slate-100 px-2 py-1 rounded">
                   <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -246,9 +253,12 @@ export default function PousadaTubaraoLanding() {
                   </svg>
                 </div>
               </div>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 mb-2">
                 Espaço amplo com camas para até quatro pessoas, perfeito para famílias que querem ficar juntas.
               </p>
+              <span className="inline-block bg-green-50 border border-green-600 text-green-700 font-bold px-3 py-1 rounded-lg text-sm shadow-sm mb-4">
+  R$ 700
+</span>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="inline-flex items-center gap-1 text-xs font-semibold text-gray-600 bg-slate-100 px-2 py-1 rounded">
                   <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -316,43 +326,47 @@ export default function PousadaTubaraoLanding() {
                   </svg>
                 </div>
               </div>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 mb-2">
                 Chalé charmoso com decoração alegre, oferecendo uma experiência única em meio à natureza.
               </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                <span className="inline-flex items-center gap-1 text-xs font-semibold text-gray-600 bg-slate-100 px-2 py-1 rounded">
-                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
-                    />
-                  </svg>
-                  Design único
-                </span>
-                <span className="inline-flex items-center gap-1 text-xs font-semibold text-gray-600 bg-slate-100 px-2 py-1 rounded">
-                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
-                    />
-                  </svg>
-                  Experiência imersiva
-                </span>
+              <span className="inline-block bg-green-50 border border-green-600 text-green-700 font-bold px-3 py-1 rounded-lg text-sm shadow-sm mb-4">
+  R$ 900
+</span>
+
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="inline-flex items-center gap-1 text-xs font-semibold text-gray-600 bg-slate-100 px-2 py-1 rounded">
+                    <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
+                      />
+                    </svg>
+                    Design único
+                  </span>
+                  <span className="inline-flex items-center gap-1 text-xs font-semibold text-gray-600 bg-slate-100 px-2 py-1 rounded">
+                    <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                      />
+                    </svg>
+                    Experiência imersiva
+                  </span>
+                </div>
+                <a
+                  href="#contato"
+                  className="block w-full text-center bg-sky-600 text-white hover:bg-sky-700 rounded-lg font-semibold px-6 py-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-600 focus-visible:ring-offset-2 transition"
+                  aria-label="Reservar chalé"
+                >
+                  Reservar
+                </a>
               </div>
-              <a
-                href="#contato"
-                className="block w-full text-center bg-sky-600 text-white hover:bg-sky-700 rounded-lg font-semibold px-6 py-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-600 focus-visible:ring-offset-2 transition"
-                aria-label="Reservar chalé"
-              >
-                Reservar
-              </a>
             </div>
           </div>
-        </div>
       </section>
 
       {/* Serviços Section */}
@@ -367,23 +381,25 @@ export default function PousadaTubaraoLanding() {
           <div className="bg-slate-50 rounded-xl p-4 lg:p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ring-1 ring-slate-200 group">
             <div className="flex flex-col items-center text-center gap-3">
               <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-sky-100 flex items-center justify-center group-hover:bg-sky-200 transition-colors">
-                <svg
-                  className="w-6 h-6 lg:w-8 lg:h-8 text-sky-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                  />
-                </svg>
-              </div>
+  <svg
+    className="w-6 h-6 lg:w-8 lg:h-8 text-sky-600"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M12 20h.01M9.172 16.172a4 4 0 015.656 0M6.343 12.343a8 8 0 0111.314 0M3.515 8.515a12 12 0 0116.97 0"
+    />
+  </svg>
+</div>
+
+
               <div>
-                <h3 className="font-bold text-gray-900 text-sm lg:text-base">Wi-Fi grátis</h3>
+                <h3 className="font-bold text-gray-900 text-sm lg:text-base">Wi-Fi</h3>
                 <span className="inline-block mt-1 text-xs font-semibold text-sky-600 bg-sky-50 px-2 py-0.5 rounded">
                   Incluído
                 </span>
@@ -418,79 +434,109 @@ export default function PousadaTubaraoLanding() {
             </div>
           </div>
 
-          <div className="bg-slate-50 rounded-xl p-4 lg:p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ring-1 ring-slate-200 group">
-            <div className="flex flex-col items-center text-center gap-3">
-              <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-amber-100 flex items-center justify-center group-hover:bg-amber-200 transition-colors">
-                <svg
-                  className="w-6 h-6 lg:w-8 lg:h-8 text-amber-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-                  />
-                </svg>
-              </div>
-              <div>
-                <h3 className="font-bold text-gray-900 text-sm lg:text-base">Vista mar</h3>
-                <span className="inline-block mt-1 text-xs font-semibold text-amber-600 bg-amber-50 px-2 py-0.5 rounded">
-                  Exclusivo
-                </span>
-              </div>
-            </div>
-          </div>
+          {/* Vista mar */}
+
+
+      <div className="bg-slate-50 rounded-xl p-4 lg:p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ring-1 ring-slate-200 group">
+  <div className="flex flex-col items-center text-center gap-3">
+    <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-amber-100 flex items-center justify-center group-hover:bg-amber-200 transition-colors">
+      <svg
+        className="w-6 h-6 lg:w-8 lg:h-8 text-amber-600"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        
+        <rect
+          x="3"
+          y="7"
+          width="18"
+          height="13"
+          rx="2"
+          ry="2"
+          strokeWidth={2}
+        />
+        
+        <path
+          strokeWidth={2}
+          d="M8 7l2-3h4l2 3"
+        />
+      
+        <circle
+          cx="12"
+          cy="13"
+          r="3"
+          strokeWidth={2}
+        />
+      </svg>
+    </div>
+    <div>
+      <h3 className="font-bold text-gray-900 text-sm lg:text-base">Vista mar</h3>
+      <span className="inline-block mt-1 text-xs font-semibold text-amber-600 bg-amber-50 px-2 py-0.5 rounded">
+        Exclusivo
+      </span>
+    </div>
+  </div>
+</div>
+
+{/* Varanda Privativa*/}
 
           <div className="bg-slate-50 rounded-xl p-4 lg:p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ring-1 ring-slate-200 group">
             <div className="flex flex-col items-center text-center gap-3">
               <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-violet-100 flex items-center justify-center group-hover:bg-violet-200 transition-colors">
-                <svg
-                  className="w-6 h-6 lg:w-8 lg:h-8 text-violet-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
-                  />
-                </svg>
-              </div>
+  <svg
+    className="w-6 h-6 lg:w-8 lg:h-8 text-violet-600"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+  >
+    
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M7 11V7a5 5 0 0110 0v4"
+    />
+   
+    <rect
+      x="5"
+      y="11"
+      width="14"
+      height="10"
+      rx="2"
+      ry="2"
+      strokeWidth={2}
+    />
+    
+    <circle
+      cx="12"
+      cy="16"
+      r="1.5"
+      strokeWidth={2}
+    />
+  </svg>
+</div>
+
               <div>
                 <h3 className="font-bold text-gray-900 text-sm lg:text-base">Varanda privativa</h3>
                 <span className="inline-block mt-1 text-xs font-semibold text-violet-600 bg-violet-50 px-2 py-0.5 rounded">
-                  Conforto
+                  Conforto e privacidade
                 </span>
               </div>
             </div>
           </div>
 
-          {/* START: AR CONDICIONADO, CHURRASQUEIRA, COZINHA */}
+          {/* R CONDICIONADO*/}
           <div className="bg-slate-50 rounded-xl p-4 lg:p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ring-1 ring-slate-200 group">
             <div className="flex flex-col items-center text-center gap-3">
-              <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-blue-100 flex items-center justify-center group-hover:bg-blue-200 transition-colors">
-                <svg
-                  className="w-6 h-6 lg:w-8 lg:h-8 text-blue-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"
-                  />
-                </svg>
-              </div>
+           <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-blue-100 flex items-center justify-center group-hover:bg-blue-200 transition-colors">
+  <FaSnowflake className="w-6 h-6 lg:w-8 lg:h-8 text-blue-600 opacity-70" />
+</div>
+
+
+
               <div>
                 <h3 className="font-bold text-gray-900 text-sm lg:text-base">Ar Condicionado</h3>
                 <span className="inline-block mt-1 text-xs font-semibold text-blue-600 bg-blue-50 px-2 py-0.5 rounded">
@@ -532,89 +578,39 @@ export default function PousadaTubaraoLanding() {
               </div>
             </div>
           </div>
+          {/* cocinha */}
 
-          <div className="bg-slate-50 rounded-xl p-4 lg:p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ring-1 ring-slate-200 group">
-            <div className="flex flex-col items-center text-center gap-3">
-              <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-purple-100 flex items-center justify-center group-hover:bg-purple-200 transition-colors">
-                <svg
-                  className="w-6 h-6 lg:w-8 lg:h-8 text-purple-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                  />
-                </svg>
-              </div>
-              <div>
-                <h3 className="font-bold text-gray-900 text-sm lg:text-base">Cozinha</h3>
-                <span className="inline-block mt-1 text-xs font-semibold text-purple-600 bg-purple-50 px-2 py-0.5 rounded">
-                  Equipada
-                </span>
-              </div>
-            </div>
-          </div>
-          {/* END: ARCONDICIONADO, CHURRASQUEIRA, COZINHA */}
+                  <div className="bg-slate-50 rounded-xl p-4 lg:p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ring-1 ring-slate-200 group">
+  <div className="flex flex-col items-center text-center gap-3">
+    <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-purple-100 flex items-center justify-center group-hover:bg-purple-200 transition-colors">
+      {/* Ícono de cocina */}
+      <FaUtensils className="w-6 h-6 lg:w-8 lg:h-8 text-purple-600 opacity-80"/>
+    </div>
+    <div>
+      <h3 className="font-bold text-gray-900 text-sm lg:text-base">Cozinha</h3>
+      <span className="inline-block mt-1 text-xs font-semibold text-purple-600 bg-purple-50 px-2 py-0.5 rounded">
+        Equipada
+      </span>
+    </div>
+  </div>
+</div>
+          {/* Roupa de cama */}
 
-          <div className="bg-slate-50 rounded-xl p-4 lg:p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ring-1 ring-slate-200 group">
-            <div className="flex flex-col items-center text-center gap-3">
-              <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-blue-100 flex items-center justify-center group-hover:bg-blue-200 transition-colors">
-                <svg
-                  className="w-6 h-6 lg:w-8 lg:h-8 text-blue-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-                  />
-                </svg>
-              </div>
-              <div>
-                <h3 className="font-bold text-gray-900 text-sm lg:text-base">Ventilador de teto</h3>
-                <span className="inline-block mt-1 text-xs font-semibold text-blue-600 bg-blue-50 px-2 py-0.5 rounded">
-                  Incluído
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-slate-50 rounded-xl p-4 lg:p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ring-1 ring-slate-200 group">
-            <div className="flex flex-col items-center text-center gap-3">
-              <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-rose-100 flex items-center justify-center group-hover:bg-rose-200 transition-colors">
-                <svg
-                  className="w-6 h-6 lg:w-8 lg:h-8 text-rose-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
-                  />
-                </svg>
-              </div>
-              <div>
-                <h3 className="font-bold text-gray-900 text-sm lg:text-base">Roupa de cama</h3>
-                <span className="inline-block mt-1 text-xs font-semibold text-rose-600 bg-rose-50 px-2 py-0.5 rounded">
-                  Incluído
-                </span>
-              </div>
-            </div>
-          </div>
-
+         <div className="bg-slate-50 rounded-xl p-4 lg:p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ring-1 ring-slate-200 group">
+  <div className="flex flex-col items-center text-center gap-3">
+    <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-blue-100 flex items-center justify-center group-hover:bg-blue-200 transition-colors">
+      {/* Ícono de cama */}
+      <FaBed className="w-6 h-6 lg:w-8 lg:h-8 text-blue-600 opacity-80" />
+    </div>
+    <div>
+      <h3 className="font-bold text-gray-900 text-sm lg:text-base">Roupa de cama</h3>
+      <span className="inline-block mt-1 text-xs font-semibold text-blue-600 bg-blue-50 px-2 py-0.5 rounded">
+        Incluído
+      </span>
+    </div>
+  </div>
+</div>
+{/*Flexibilidade check in*/}
           <div className="bg-slate-50 rounded-xl p-4 lg:p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ring-1 ring-slate-200 group">
             <div className="flex flex-col items-center text-center gap-3">
               <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-teal-100 flex items-center justify-center group-hover:bg-teal-200 transition-colors">
@@ -641,33 +637,21 @@ export default function PousadaTubaraoLanding() {
               </div>
             </div>
           </div>
-
-          <div className="bg-slate-50 rounded-xl p-4 lg:p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ring-1 ring-slate-200 group">
-            <div className="flex flex-col items-center text-center gap-3">
-              <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-indigo-100 flex items-center justify-center group-hover:bg-indigo-200 transition-colors">
-                <svg
-                  className="w-6 h-6 lg:w-8 lg:h-8 text-indigo-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                  />
-                </svg>
-              </div>
-              <div>
-                <h3 className="font-bold text-gray-900 text-sm lg:text-base">Pet friendly</h3>
-                <span className="inline-block mt-1 text-xs font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">
-                  Bem-vindo
-                </span>
-              </div>
-            </div>
-          </div>
+{/* Pet Friendly  */}
+         <div className="bg-slate-50 rounded-xl p-4 lg:p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 ring-1 ring-slate-200 group">
+  <div className="flex flex-col items-center text-center gap-3">
+    <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-indigo-100 flex items-center justify-center group-hover:bg-indigo-200 transition-colors">
+      {/* Ícono de huella para pet friendly */}
+      <FaPaw className="w-6 h-6 lg:w-8 lg:h-8 text-indigo-600 opacity-80" />
+    </div>
+    <div>
+      <h3 className="font-bold text-gray-900 text-sm lg:text-base">Pet friendly</h3>
+      <span className="inline-block mt-1 text-xs font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">
+        Bem-vindo
+      </span>
+    </div>
+  </div>
+</div>
         </div>
       </section>
 
@@ -676,7 +660,7 @@ export default function PousadaTubaraoLanding() {
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           <div className="relative aspect-[4/3] rounded-xl overflow-hidden ring-1 ring-slate-200 bg-white">
             <img
-              src="/images/483051518.jpg"
+              src="/images/comer.jpeg"
               alt="Restaurante Caribe na Praia de Fora"
               className="w-full h-full object-cover"
             />
@@ -783,7 +767,9 @@ export default function PousadaTubaraoLanding() {
               />
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden ring-1 ring-slate-200 bg-white">
-              <img src="/images/661308225.jpg" alt="Gruta das Encantadas" className="w-full h-full object-cover" />
+              <img src="/images/pousada.jpeg" 
+              alt="Gruta das Encantadas" 
+              className="w-full h-full object-cover" />
             </div>
           </div>
 
@@ -811,6 +797,25 @@ export default function PousadaTubaraoLanding() {
               Nosso estabelecimento é econômico e familiar, ideal para quem busca simplicidade com conforto. Aceitamos
               pagamentos em cartões e dinheiro.
             </p>
+            <ul className="space-y-3 text-gray-700 mt-4">
+              <li className="flex items-center gap-2">
+                <span className="text-sky-600">•</span>
+                <span>Check-in a partir das 14h</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-sky-600">•</span>
+                <span>Check-out até 12h</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-sky-600">•</span>
+                <span>Café da manhã servido das 8h às 10h</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-sky-600">•</span>
+                <span>Animais de estimação são permitidos</span>
+              </li>
+            </ul>
+
           </div>
 
           <div className="bg-white rounded-xl shadow ring-1 ring-slate-200 p-8">
