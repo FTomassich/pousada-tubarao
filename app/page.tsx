@@ -801,7 +801,7 @@ export default function PousadaTubaraoLanding() {
       </section>
 
       {/* Detalhes e Contato Section */}
-      <section id="contato" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16 scroll-mt-10">
+      <section  className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16 scroll-mt-10">
         <div className="grid lg:grid-cols-2 gap-8">
           <div className="bg-white rounded-xl shadow ring-1 ring-slate-200 p-8">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">Detalhes úteis</h2>
@@ -830,7 +830,7 @@ export default function PousadaTubaraoLanding() {
 
           </div>
 
-          <div className="bg-white rounded-xl shadow ring-1 ring-slate-200 p-8">
+          <div id="contato" className="bg-white rounded-xl shadow ring-1 ring-slate-200 p-8 scroll-mt-18">
             <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">Contato</h2>
             <p className="text-gray-700 mb-6">Entre em contato e garanta sua reserva.</p>
             <div className="space-y-3">
