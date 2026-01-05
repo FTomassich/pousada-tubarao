@@ -661,28 +661,25 @@ export default function PousadaTubaraoLanding() {
   id="restaurante"
   className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16 scroll-mt-10"
 >
-  <div className="grid lg:grid-cols-2 gap-8 items-center">
-    <div>
-      {/* Título centrado */}
-      <h2 className="text-center text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
-        Restaurante Caribe
-      </h2>
-
-      {/* Descripción con más separación respecto a la imagen */}
-      <p className="text-gray-700 mb-8 text-center lg:text-left">
-        A Pousada Tubarão também faz parte do Restaurante Caribe, localizado na praça de alimentação da Praia de
-        Fora, a apenas 10 minutos da pousada. Uma opção deliciosa para completar sua experiência.
-      </p>
-
-      <div className="relative aspect-[4/3] rounded-xl overflow-hidden ring-1 ring-slate-200 bg-white">
-        <img
-          src="/images/comer.jpeg"
-          alt="Restaurante Caribe na Praia de Fora"
-          className="w-full h-full object-cover"
-        />
-      </div>
+ <div className="flex flex-col items-center text-center gap-8">
+  <div className="max-w-xl mx-auto text-center">
+    <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
+      Restaurante Caribe
+    </h2>
+    <p className="text-gray-700 mb-8">
+      A Pousada Tubarão também faz parte do Restaurante Caribe, localizado na praça de alimentação da Praia de
+      Fora, a apenas 10 minutos da pousada. Uma opção deliciosa para completar sua experiência.
+    </p>
+    <div className="relative aspect-[4/3] rounded-xl overflow-hidden ring-1 ring-slate-200 bg-white">
+      <img
+        src="/images/comer.jpeg"
+        alt="Restaurante Caribe na Praia de Fora"
+        className="w-full h-full object-cover"
+      />
     </div>
   </div>
+</div>
+
 </section>
 
 
